@@ -20,7 +20,7 @@ const get_all_User = asyncWrapper(async (req, res) => {
 })
 
 const reqister = asyncWrapper(async (req, res, next) => {
-    // console.log(req.file);
+    console.log(req.file);
 
 
     const { firstName,
